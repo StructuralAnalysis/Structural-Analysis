@@ -1,2 +1,2 @@
 # Structural-Analysis
-Find most optimal structure for input data
+Finds most optimal structure for input data
