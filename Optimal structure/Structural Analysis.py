@@ -4,7 +4,7 @@ import MultiPartition as mp
 import math
 
 
-def optimal_stucture(mult_factor, mode='short'):
+def find_optimal_stucture(mult_factor, mode='short'):
     """Calculate optimal structure"""
     super_v = []
     for f in mult_factor:
@@ -53,7 +53,7 @@ def optimal_stucture(mult_factor, mode='short'):
 
 
 factor_list = fct.get_final_factor_list(Data)
-result = optimal_stucture(factor_list)
+result = find_optimal_stucture(factor_list)
 
 for r in result:
     print(r)
