@@ -52,12 +52,7 @@ def optimal_stucture(mult_factor, mode='short'):
         return s_v_3
 
 
-x = np.random.randint(2, size=[8, 8])
-# print(x)
-# example = np.array([[11, 21], [12, 21],
-#                     [13, 22], [14, 22]])
-
-factor_list = fct.get_final_factor_list(x)
+factor_list = fct.get_final_factor_list(Data)
 result = optimal_stucture(factor_list)
 
 for r in result:
